@@ -32,7 +32,7 @@ github_username: Park-hanna
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/test_img.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 저는 IT 취준생 박한나입니다. 
+  안녕하세요. 저는 IT 취업준비생 박한나입니다. 
 
 content:
   - title: Projects # Title for the section
@@ -45,17 +45,19 @@ content:
         title: Hanshin Cat
         link: https://github.com/Park-hanna/Hanshin_Cat
         link_text: Link Text
-        additional_links:
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+        # additional_links:
+        #   - title: Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title: Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >          
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          한신 고양이 프로젝트는 교내 길고양이 관리에 커뮤니티로 기능에는 회원가입부터
+          게시물 업로드를 메인으로 하고 검색 기능 등 다양한 기능을 하는 애플리케이션입니다.  
+          더불어 사진 분석, 분류 기능도 제공했습니다. 사진 분석, 분류 기능은 고양이 사진을 
+          업로드 하면 해당 사진의 고양이가 교내 길고양이 인지 다른 고양이 인지 분석 분류 해주는 기능입니다.
   - title: Experience
     layout: list
     content:
@@ -72,18 +74,17 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: 한신대학교
+        sub_title: 컴퓨터 공학부
+        caption: 2019 - 2023
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          2019년 3월에 한신대학교 컴퓨터 공학부에 입학했으며, 2023년 2월에 학사 학위 취득, 졸업했습니다.
+        # description: | # this will include new lines to allow paragraphs
+        #   Description of qualification
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
